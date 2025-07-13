@@ -1,9 +1,9 @@
 {
   "name": "angular-file-switcher",
-  "displayName": "Angular File Switcher",
-  "version": "1.0.0",
+  "displayName": "Angular Component Switcher",
+  "version": "1.0.1",
   "description": "Quickly switch between Angular component files (.ts, .html, .scss, .css, .spec.ts)",
-  "publisher": "mohamed.karkotly",
+  "publisher": "Mohamed-Karkotly",
   "categories": ["Other"],
   "keywords": ["angular", "component", "file", "switcher", "typescript", "html", "scss", "css"],
   "icon": "icon.png",
@@ -32,7 +32,7 @@
       }
     ],
     "configuration": {
-      "title": "Angular File Switcher",
+      "title": "Angular Component Switcher",
       "properties": {
         "angularFileSwitcher.fileExtensions": {
           "type": "array",

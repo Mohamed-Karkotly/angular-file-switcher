@@ -1,6 +1,6 @@
-# Angular File Switcher
+# Angular Component Switcher
 
-A Visual Studio Code extension that allows you to quickly switch between Angular component files (.ts, .html, .scss, .css, .spec.ts) with a simple keyboard shortcut.
+An extension that allows you to quickly switch between Angular component files (.ts, .html, .scss, .css, .spec.ts) with a simple keyboard shortcut.
 
 ## Features
 
@@ -14,7 +14,7 @@ A Visual Studio Code extension that allows you to quickly switch between Angular
 ### From VS Code Marketplace
 1. Open VS Code
 2. Go to Extensions
-3. Search for "Angular File Switcher"
+3. Search for "Angular Component Switcher"
 4. Click Install
 
 ### From VSIX Package

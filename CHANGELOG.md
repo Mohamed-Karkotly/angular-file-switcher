@@ -1,14 +1,20 @@
 # Changelog
 
-All notable changes to the "Angular File Switcher" extension will be documented in this file.
+All notable changes to the "Angular Component Switcher" extension will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.1] - 2025-07-13
+
+### Changed
+- Updated extension display name from "Angular File Switcher" to "Angular Component Switcher"
+- Updated all documentation to reflect the new display name
+
 ## [1.0.0] - 2025-07-11
 
 ### Added
-- Initial release of Angular File Switcher extension
+- Initial release of Angular Component Switcher extension
 - Quick file switching between Angular component files (.ts, .html, .scss, .css, .spec.ts)
 - Keyboard shortcut `Alt + S` (Windows/Linux) or `⌥ + S` (Mac) for file switching with smart file detection
 - Support for all common Angular component file types:
