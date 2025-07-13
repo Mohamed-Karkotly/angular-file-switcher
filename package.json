@@ -1,0 +1,66 @@
+{
+  "name": "angular-file-switcher",
+  "displayName": "Angular File Switcher",
+  "version": "1.0.0",
+  "description": "Quickly switch between Angular component files (.ts, .html, .scss, .css, .spec.ts)",
+  "publisher": "mohamed.karkotly",
+  "categories": ["Other"],
+  "keywords": ["angular", "component", "file", "switcher", "typescript", "html", "scss", "css"],
+  "icon": "icon.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mohamed-Karkotly/angular-file-switcher"
+  },
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "main": "extension.js",
+  "activationEvents": ["onLanguage:typescript", "onLanguage:html", "onLanguage:scss", "onLanguage:css"],
+  "contributes": {
+    "commands": [
+      {
+        "command": "angular-file-switcher.switch",
+        "title": "Switch Angular Files"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "angular-file-switcher.switch",
+        "key": "alt+s",
+        "mac": "alt+s",
+        "when": "editorTextFocus"
+      }
+    ],
+    "configuration": {
+      "title": "Angular File Switcher",
+      "properties": {
+        "angularFileSwitcher.fileExtensions": {
+          "type": "array",
+          "default": [".ts", ".html", ".scss", ".css", ".spec.ts"],
+          "description": "File extensions to switch between",
+          "items": {
+            "type": "string"
+          }
+        },
+        "angularFileSwitcher.excludeSpecFiles": {
+          "type": "boolean",
+          "default": false,
+          "description": "Exclude .spec.ts files from switching"
+        },
+        "angularFileSwitcher.openInNewTab": {
+          "type": "boolean",
+          "default": false,
+          "description": "Open switched file in a new tab instead of replacing the current tab"
+        }
+      }
+    }
+  },
+  "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish"
+  },
+  "devDependencies": {
+    "vsce": "^2.15.0",
+    "@types/vscode": "^1.76.0"
+  }
+}
